@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "authorizenet"
-  s.version = "1.9.4"
+  s.version = "1.9.5"
   s.platform = Gem::Platform::RUBY
   s.date = "2017-06-05"
   s.summary = "Authorize.Net Payments SDK"
@@ -16,8 +16,9 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'activesupport', '>= 4.2.6'
   s.add_runtime_dependency 'nokogiri', '~> 1.6', '>= 1.6.4'
-  s.add_runtime_dependency "roxml", "= 3.3.1"
+  s.add_runtime_dependency "roxml", "= 4.0.0"
 
   s.add_development_dependency 'rake', '~> 0.8', '>= 0.8.7'
   s.add_development_dependency 'rspec', '~> 2.1'
+  s.add_development_dependency 'gemfury'
 end
